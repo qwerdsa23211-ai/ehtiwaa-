@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="منصة احتواء الرقمية العالمية للتوعية بأصحاب الهمم، والتوحد، ودعم الأسر والمعلمين والمجتمع.">
+<meta name="theme-color" content="#087b83">
+<title>احتواء | EHTIWAA</title>
+<style>
+:root{--teal:#087b83;--deep:#075365;--aqua:#e8f8f8;--orange:#ff9f36;--ink:#183a45;--muted:#58717a;--white:#fff;--line:#d9ebed}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;color:var(--ink);background:#f7fbfc;line-height:1.75}
+a{color:var(--teal)}button{font:inherit;cursor:pointer}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}.brand{display:flex;align-items:center;gap:10px;color:var(--deep);text-decoration:none;font-weight:800;font-size:1.35rem}.mark{width:44px;height:44px;border-radius:50% 50% 45% 45%;background:linear-gradient(135deg,#00a5b5 0 50%,#ffa13b 50%);display:grid;place-items:center;color:white;font-size:1.25rem}
+nav{display:flex;gap:16px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--ink);font-size:.92rem;font-weight:700}.actions{display:flex;gap:8px;align-items:center}.btn{border:0;border-radius:999px;padding:10px 18px;font-weight:700}.primary{background:var(--teal);color:white}.outline{background:white;border:1px solid var(--teal);color:var(--teal)}
+.hero{padding:70px 0 54px;background:radial-gradient(circle at 85% 15%,#fff1dd 0 12%,transparent 30%),linear-gradient(130deg,#e5f7f8,#fff 62%,#fff4e6)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center}.eyebrow{color:var(--teal);font-weight:800;letter-spacing:.04em}.hero h1{font-size:clamp(2.2rem,5vw,4.3rem);line-height:1.2;color:var(--deep);margin:12px 0}.hero p{font-size:1.18rem;color:#365d67;max-width:690px}.hero-art{min-height:280px;border-radius:34px;background:linear-gradient(145deg,#09a4ad,#07596b);color:white;display:grid;place-items:center;text-align:center;padding:30px;box-shadow:0 20px 45px #0753652a}.hero-art .symbol{font-size:6rem;line-height:1}.hero-art strong{font-size:1.5rem}.hero-art span{display:block;color:#d9ffff}
+section{padding:54px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 28px}.section-head h2{font-size:2rem;color:var(--deep);margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 8px 25px #123b4509}.card .ico{font-size:2rem}.card h3{margin:8px 0;color:var(--deep)}.card p{margin:0;color:var(--muted)}
+.soft{background:var(--aqua)}.two{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.pill{display:inline-block;background:#eaf7f6;color:var(--teal);padding:5px 12px;border-radius:999px;font-size:.85rem;font-weight:700}
+.list{padding-inline-start:22px}.list li{margin:8px 0}.callout{background:linear-gradient(120deg,#07596b,#078b8b);color:white;border-radius:24px;padding:28px}.callout h2{margin-top:0}.callout p{color:#e5ffff}
+input,textarea,select{width:100%;padding:12px;border:1px solid #bdd7dc;border-radius:12px;font:inherit;background:white}label{display:block;font-weight:700;margin:10px 0 5px}.notice{font-size:.88rem;color:var(--muted)}
+footer{background:#063f50;color:white;padding:32px 0}footer a{color:#baf4f1}footer p{margin:4px 0}
+.lang-en{display:none}body.en{direction:ltr}body.en .lang-ar{display:none}body.en .lang-en{display:revert}body.en nav{direction:ltr}
+@media(max-width:850px){.hero-grid,.two{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}nav{display:none}.hero{padding:42px 0}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.nav{flex-wrap:wrap}.actions{margin-inline-start:auto}.hero-art{min-height:210px}}
+:focus-visible{outline:3px solid #ffad45;outline-offset:3px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="mark" aria-hidden="true">♥</span><span>احتواء <small style="display:block;font-size:.65rem;letter-spacing:.2em">EHTIWAA</small></span></a>
+<nav aria-label="التنقل الرئيسي" class="lang-ar"><a href="#about">عن المنصة</a><a href="#portals">بوابات المعرفة</a><a href="#library">المكتبة</a><a href="#survey">شاركنا</a><a href="#contact">تواصل</a></nav>
+<nav aria-label="Main navigation" class="lang-en"><a href="#about">About</a><a href="#portals">Knowledge</a><a href="#library">Library</a><a href="#survey">Take part</a><a href="#contact">Contact</a></nav>
+<div class="actions"><button class="btn outline" id="langBtn" type="button" aria-label="Switch language">English</button></div>
+</div></header>
+<main id="home">
+<div class="hero"><div class="wrap hero-grid">
+<div class="lang-ar"><span class="eyebrow">منصة رقمية عالمية • مجانية • تطوعية</span><h1>كل إنسان لديه قدرات تستحق أن تُكتشف</h1><p>معاً نفهم الاختلاف، ونتعلم كيف ندعم أصحاب الهمم، ونبني مجتمعاً أكثر وعياً واحتواءً — مع اهتمام خاص بالتوحد.</p><a class="btn primary" href="#portals">ابدأ رحلة المعرفة</a></div>
+<div class="lang-en"><span class="eyebrow">GLOBAL • FREE • VOLUNTEER-LED</span><h1>Every person has abilities worth discovering</h1><p>Understand differences, learn how to support People of Determination, and build a more inclusive community—with a special focus on autism.</p><a class="btn primary" href="#portals">Explore the platform</a></div>
+<div class="hero-art" role="img" aria-label="رمز يعبّر عن الاحتواء والأسرة"><div><div class="symbol">♡</div><strong>احتواء يجمعنا</strong><span>Knowledge • Inclusion • Empowerment</span></div></div>
+</div></div>
+<section id="about"><div class="wrap two">
+<div class="lang-ar"><span class="pill">من نحن</span><h2>مساحة معرفة مفتوحة للجميع</h2><p>احتواء مبادرة رقمية إنسانية مستقلة، تهدف إلى نشر المعرفة والوعي حول أصحاب الهمم، وتقديم موارد مبسطة للأسر والمعلمين والمتخصصين والمؤسسات والمجتمع المحلي.</p><p><b>رؤيتنا:</b> مجتمع شامل يقدّر التنوع ويتيح فرص المشاركة والتعلم للجميع.</p><p><b>رسالتنا:</b> المعرفة الموثوقة، والتوعية، وتبادل الخبرات، ودعم الممارسات الدامجة.</p></div>
+<div class="lang-en"><span class="pill">About us</span><h2>An open knowledge space for everyone</h2><p>EHTIWAA is an independent, volunteer-led digital initiative that promotes understanding of People of Determination and shares accessible resources for families, educators, professionals, institutions, and communities.</p><p><b>Vision:</b> An inclusive society that values diversity and participation.</p><p><b>Mission:</b> Trusted knowledge, awareness, shared experience, and inclusive practice.</p></div>
+<div class="callout"><h2 class="lang-ar">قيمنا</h2><h2 class="lang-en">Our values</h2><p>الكرامة والاحترام • الشمول • التعاطف • المعرفة • المشاركة • الخصوصية</p><p>Dignity • Inclusion • Empathy • Knowledge • Participation • Privacy</p><small>مبادرة تطوعية مجانية — لا تقدم تشخيصاً طبياً أو بديلاً عن المختصين.</small></div>
+</div></section>
+<section id="portals" class="soft"><div class="wrap"><div class="section-head"><h2 class="lang-ar">بوابات المعرفة</h2><h2 class="lang-en">Knowledge portals</h2><p class="lang-ar">اختر المسار الأقرب إلى احتياجك، واستكشف المعلومات والموارد.</p><p class="lang-en">Choose the pathway that best matches your needs.</p></div>
+<div class="grid">
+<article class="card"><div class="ico">🧩</div><h3 class="lang-ar">موسوعة أصحاب الهمم</h3><h3 class="lang-en">People of Determination</h3><p class="lang-ar">معلومات تمهيدية عن الإعاقات والاختلافات النمائية والتواصلية وطرق الدعم.</p><p class="lang-en">Introductory information about disabilities, developmental and communication differences, and support.</p></article>
+<article class="card"><div class="ico">🏡</div><h3 class="lang-ar">بوابة الأسرة وأولياء الأمور</h3><h3 class="lang-en">Families & caregivers</h3><p class="lang-ar">إرشادات الحياة اليومية، التواصل، الروتين، الشراكة مع المدرسة وطلب الدعم.</p><p class="lang-en">Daily living, communication, routines, school partnership, and finding support.</p></article>
+<article class="card"><div class="ico">📚</div><h3 class="lang-ar">بوابة المعلمين والمعلمات</h3><h3 class="lang-en">Educators</h3><p class="lang-ar">التعليم الدامج، تكييف الأنشطة، الخطط الفردية، والتواصل مع الأسرة.</p><p class="lang-en">Inclusive teaching, activity adaptations, individualized plans, and family engagement.</p></article>
+<article class="card"><div class="ico">🩺</div><h3 class="lang-ar">بوابة المتخصصين</h3><h3 class="lang-en">Professionals</h3><p class="lang-ar">مصادر مهنية ومفاهيم أساسية وأدوات تعاون متعددة التخصصات.</p><p class="lang-en">Professional resources, core concepts, and multidisciplinary collaboration.</p></article>
+<article class="card"><div class="ico">🏢</div><h3 class="lang-ar">المؤسسات والمجتمع</h3><h3 class="lang-en">Organizations & community</h3><p class="lang-ar">التوعية، سهولة الوصول، المبادرات التطوعية، وبناء بيئات مرحبة.</p><p class="lang-en">Awareness, accessibility, volunteering, and welcoming environments.</p></article>
+<article class="card"><div class="ico">🌱</div><h3 class="lang-ar">التوحد محور اهتمام</h3><h3 class="lang-en">Autism focus</h3><p class="lang-ar">فهم طيف التوحد، التنوع الفردي، التواصل، الحواس، والدعم القائم على الاحتياج.</p><p class="lang-en">Understanding the autism spectrum, individual differences, communication, sensory needs, and individualized support.</p></article>
+</div></div></section>
+<section id="library"><div class="wrap two"><div><span class="pill">المصادر / Resources</span><h2 class="lang-ar">المكتبة الرقمية</h2><h2 class="lang-en">Digital library</h2><p class="lang-ar">ستضم أدلة قابلة للقراءة والتنزيل، ومواد مرئية، وقوالب عملية، وروابط لمصادر موثوقة باللغتين.</p><p class="lang-en">A growing collection of guides, videos, practical templates, and trusted Arabic and English resources.</p></div><div class="card"><h3 class="lang-ar">قريباً في النسخة التالية</h3><h3 class="lang-en">Coming in the next release</h3><ul class="list"><li>دليل مبسط للتوحد / Autism basics</li><li>دليل الشراكة بين الأسرة والمدرسة / Family-school partnership</li><li>قاموس المصطلحات / Glossary</li><li>مواد قابلة للطباعة / Printable resources</li></ul></div></div></section>
+<section id="survey" class="soft"><div class="wrap two"><div><span class="pill">شارك في تطوير احتواء</span><h2 class="lang-ar">رأيك يصنع فرقاً</h2><h2 class="lang-en">Help shape EHTIWAA</h2><p class="lang-ar">سنضيف هنا استبيانات عامة ونماذج اقتراحات وأسئلة. لا ترسل معلومات صحية أو بيانات تعريفية حساسة عن الأطفال.</p><p class="lang-en">Public surveys, suggestions, and questions will be added here. Please do not submit sensitive health or identifying information about children.</p></div>
+<div class="card"><h3 class="lang-ar">استبيان الاهتمامات — نموذج تجريبي</h3><h3 class="lang-en">Interest survey — demo</h3><form id="surveyForm"><label for="role" class="lang-ar">ما صفتك؟</label><label for="role" class="lang-en">Your role</label><select id="role" required><option value="">— اختر / Select —</option><option>ولي أمر / Parent or caregiver</option><option>معلم / Educator</option><option>متخصص / Professional</option><option>فرد من المجتمع / Community member</option><option>أخرى / Other</option></select><label for="topic" class="lang-ar">ما الموضوع الذي تود معرفته؟</label><label for="topic" class="lang-en">What would you like to learn about?</label><textarea id="topic" rows="3" required placeholder="اكتب الموضوع هنا / Type a topic"></textarea><button class="btn primary" type="submit">إرسال تجريبي / Submit demo</button><p class="notice" id="formMsg" aria-live="polite">تنبيه: هذا نموذج واجهة تجريبي ولا يحفظ الردود أو يرسلها. اربطه بنموذج Google قبل النشر العام.</p></form></div></div></section>
+<section id="contact"><div class="wrap two"><div><h2 class="lang-ar">تواصل ومشاركة</h2><h2 class="lang-en">Connect and share</h2><p class="lang-ar">شارك رابط احتواء مع الأسرة والمدرسة والمجتمع. سنضيف روابط التواصل الرسمية بعد اعتمادها.</p><p class="lang-en">Share EHTIWAA with families, schools, and your community. Official social links can be added once created.</p></div><div class="card"><h3>المؤسس / Founder</h3><p><b>إبراهيم أحمد إبراهيم</b></p><p>مؤسس مبادرة احتواء / Founder of EHTIWAA Initiative</p><p class="notice">مشروع عالمي مستقل، تطوعي ومجاني.</p></div></div></section>
+</main>
+<footer><div class="wrap"><p><b>احتواء | EHTIWAA</b></p><p>معاً نفهم قدراتهم، ونحتوي اختلافاتهم، ونصنع فرصهم.</p><p>© <span id="year"></span> EHTIWAA — مبادرة تطوعية مجانية. جميع الحقوق محفوظة.</p><p class="notice" style="color:#cce9eb">المحتوى للتوعية والتثقيف ولا يشكل تشخيصاً أو نصيحة طبية أو علاجية.</p></div></footer>
+<script>
+const btn=document.getElementById('langBtn');
+btn.addEventListener('click',()=>{const en=document.body.classList.toggle('en');document.documentElement.lang=en?'en':'ar';document.documentElement.dir=en?'ltr':'rtl';btn.textContent=en?'العربية':'English';});
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('surveyForm').addEventListener('submit',e=>{e.preventDefault();document.getElementById('formMsg').textContent='شكراً لمشاركتك. هذا إرسال تجريبي فقط؛ لم يتم حفظ أي بيانات. / Thank you. Demo only—no data was stored.';});
+</script>
+</body></html>
